@@ -1,0 +1,186 @@
+/*
+Theme Name: 	College Coach - Theme
+Theme URI: 		
+/*
+/*	CSS Architecture is as follows:
+/*		1. Base
+/*		2. Layout
+/*			- Two Column Layout
+/*			- Three Column Layout
+/*		3. Module
+/*		4. State
+/*		5. Theme
+*/
+
+body {
+	color: #000;
+	background-color:#fff;
+}
+
+/* Orange Stuff */
+.orange-background {
+	background-image: url(../img/orange-bg.jpg);
+	background-repeat: repeat-x;
+}
+
+#orange > li > a, #orange  > li > a:hover {
+    color: #D64D23;
+
+}
+
+#orange > .active > a, #orange  > .active > a:hover {
+    background-color: #D64D23;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Pink Stuff */
+.pink-background {
+	background-color: #CB389C !important;
+}
+
+#pink > li > a, #blue  > li > a:hover {
+    color: #CB389C;
+
+}
+
+#pink > .active > a, #blue  > .active > a:hover {
+    background-color: #CB389C;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* Blue Stuff */
+.blue-background {
+	background-color: #69b2b2 !important;
+}
+
+#blue > li > a, #blue  > li > a:hover {
+    color: #69b2b2;
+
+}
+
+#blue > .active > a, #blue  > .active > a:hover {
+    background-color: #69b2b2;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.big-container {
+	height:300px;
+	margin-top: -20px;
+}
+
+.navbar {
+	background-image: url(../img/debut_dark.png);
+}
+
+.step-by-step {
+	position: fixed;
+	width:350px;
+}
+
+.sidebar-nav {
+
+}
+
+.control-group {
+	height:2em;
+	line-height:2em;
+	padding:10px;
+}
+
+.control-group:focus {
+	background-color:#DCEEFB;
+}
+.control-group:hover {
+	background-color:#DCEEFB;
+}
+
+.paper-fold {
+	height:22px;
+	margin-top:10px;
+	background-image: url(../img/corner-edge.png);
+	background-repeat: no-repeat;
+	background-position:bottom right;
+}
+
+.paper-container {
+	background-color:#fff;
+}
+
+.paper-padding {
+	padding:20px;
+}
+
+.hero-unit {
+	color: #000;
+	padding:20px;
+	background-color: none !important;
+}
+
+.step-header h1 {
+	margin-top:40px;
+	text-shadow:0px 2px 3px #555;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom:5px;
+	font-size:4em;
+	color:#fff;
+}
+
+.step-header h5{
+	font-family: 'Gentium Book Basic', serif;
+	color:#fff;
+	font-size:1.5em;
+}
+
+.border-left {
+	border-left: 1px dotted #d7d7d7;
+}
+
+.well {
+	background-color:#fff;
+	border:0;
+	box-shadow: none;
+	padding:0;
+}
+
+.center {
+    float: none !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+
+.form-horizontal {
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+}
+
+.form-header {
+	margin-left:20px;
+	margin-top:0;
+	width:95%;
+	text-transform: uppercase;
+	padding:10px;
+	background-color:#d7d7d7;
+	color:#fff;
+	font-size:1.4em;
+}
+
+.inset {
+	text-indent:10px;
+}
+
+.featurette {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.startupweekend {
+	margin-top:60px;
+	text-align: center;
+}
